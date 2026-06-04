@@ -16,11 +16,14 @@ const Navbar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><Link href={'/'}><RiHome2Line />Home </Link></li>
+        <li><NavLink to={'/'} className={({ isActive} )=>{
+          return `${ isActive ? "bg-[#244D3F] text-white" : "bg-white"}`}} ><RiHome2Line />Home </NavLink></li>
         <li>
-        <Link href={'/timeline'}>Timeline</Link>
+        <NavLink to={'/timeline'} className={({ isActive} )=>{
+          return `${ isActive ? "bg-[#244D3F] text-white" : "bg-white"}`}}>Timeline</NavLink>
       </li>
-        <li><Link href={'/stats'}>Stats</Link></li>
+        <li><NavLink to={'/stats'} className={({ isActive} )=>{
+          return `${ isActive ? "bg-[#244D3F] text-white" : "bg-white"}`}}>Stats</NavLink></li>
       </ul>
     </div>
     <img src={logo} alt="" className="h-8 w-auto" />
