@@ -6,15 +6,15 @@ import twit from "../../assets/twitter.png";
 
 const Footer = () => {
     return (
-        <div className='container mx-auto'>
-            <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-primary-content p-10">
-  <aside>
+        <div className='container mx-auto px-4'>
+            <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-primary-content p-10 flex flex-col items-center">
+  <aside className="flex flex-col items-center text-center">
    <img src={logoxl} alt=''></img>
-    <p className="font-bold">
+    <p className="font-bold max-w-md mt-2">
      Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
-      
+     
     </p>
-    <p>Social Links</p>
+    <p className="mt-2">Social Links</p>
   </aside>
   <nav>
     <div className="grid grid-flow-col gap-4">
@@ -32,10 +32,11 @@ const Footer = () => {
   <div className="flex w-full flex-col">
   
   <div className="divider"></div>
-  <div className="flex justify-between gap-100"><h2>© 2026 KeenKeeper. All rights reserved.</h2>
+  <div className="flex flex-col gap-4 text-center md:flex-row md:justify-between w-full">
+    <h2>© 2026 KeenKeeper. All rights reserved.</h2>
   <div>
     <div>
-      <ul className='flex justify-between gap-3.5'>
+      <ul className='flex justify-center md:justify-between gap-3.5 flex-wrap'>
         <li>Privacy</li>
         <li>Terms of service</li>
         <li>Cookies</li>
