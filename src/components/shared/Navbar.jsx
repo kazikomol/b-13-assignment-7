@@ -7,7 +7,7 @@ import logo from "../../assets/logo.png"
 
 const Navbar = () => {
    return (
-        <div className=" container mx-auto navbar bg-base-100 shadow-sm">
+        <div className="container mx-auto navbar bg-base-100 shadow-sm px-4">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,10 +23,12 @@ const Navbar = () => {
         <li><Link href={'/stats'}>Stats</Link></li>
       </ul>
     </div>
-    <img src={logo} alt="" />
+    <img src={logo} alt="" className="h-8 w-auto" />
   </div>
-  <div className='navbar-end'>
-    <ul className="menu menu-horizontal px-1">
+  
+  
+  <div className='navbar-end hidden lg:flex'>
+    <ul className="menu menu-horizontal px-1 gap-1">
       <li><NavLink  to={'/'} className={({ isActive} )=>{
           return `${ isActive ? "bg-[#244D3F] text-white" : "bg-white"}`}}><RiHome2Line />Home </NavLink></li>
       <li>
