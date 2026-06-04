@@ -1,11 +1,15 @@
 import React from 'react';
+import logoxl from "../../assets/logo-xl.png";
+import inst from "../../assets/instagram.png";
+import fb from "../../assets/facebook.png";
+import twit from "../../assets/twitter.png";
 
 const Footer = () => {
     return (
         <div className='container mx-auto'>
             <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-primary-content p-10">
   <aside>
-   <img src='/src/assets/logo-xl.png' alt=''></img>
+   <img src={logoxl} alt=''></img>
     <p className="font-bold">
      Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
       
@@ -15,13 +19,13 @@ const Footer = () => {
   <nav>
     <div className="grid grid-flow-col gap-4">
       <a>
-       <img src='/src/assets/instagram.png'  alt=''></img>
+       <img src={inst}  alt=''></img>
       </a>
       <a>
-        <img src='/src/assets/facebook.png' alt=''></img>
+        <img src={fb} alt=''></img>
       </a>
       <a>
-        <img src='/src/assets/twitter.png' alt=''></img>
+        <img src={twit} alt=''></img>
       </a>
     </div>
   </nav>

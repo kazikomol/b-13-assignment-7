@@ -17,7 +17,7 @@ const Stats = () => {
             name:"text" , value: textFriend.length, fill:"#FF8042"
         },
         {
-            name:"Video" , value: videoFriend.length, fill:"#FF8042"
+            name:"Video" , value: videoFriend.length, fill:"green"
         },
     ]
     return (

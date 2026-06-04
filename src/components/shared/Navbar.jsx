@@ -3,6 +3,7 @@ import { RiHome2Line, RiTimeLine } from 'react-icons/ri';
 import { TfiStatsUp } from 'react-icons/tfi';
 import { NavLink } from 'react-router';
 import { Link } from 'react-router';
+import logo from "../../assets/logo.png"
 
 const Navbar = () => {
    return (
@@ -22,7 +23,7 @@ const Navbar = () => {
         <li><Link href={'/stats'}>Stats</Link></li>
       </ul>
     </div>
-    <img src="/src/assets/logo.png" alt="" />
+    <img src={logo} alt="" />
   </div>
   <div className='navbar-end'>
     <ul className="menu menu-horizontal px-1">

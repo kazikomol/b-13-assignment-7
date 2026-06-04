@@ -2,6 +2,9 @@ import React, { useContext } from 'react';
 import { Call } from '../../context/CallContext';
 import { Text } from '../../context/TextContext';
 import { Video } from '../../context/VideoContext';
+import call from '../../assets/call.png';
+import text from '../../assets/text.png';
+import video from '../../assets/video.png';
 
 const TimeLine = () => {
     const {callFriend,setCallFriend} = useContext(Call);
@@ -19,7 +22,7 @@ const TimeLine = () => {
                     callFriend.map((friend,ind) => {
                         return <div  key={ind} className="flex items-center p-4 px-6 bg-white border border-slate-200 rounded-xl shadow-sm max-w-full font-sans m-3">
     
-      <img src="/src/assets/call.png" alt="" />
+      <img src={call} alt="" />
       
      
       <div className="flex flex-col gap-1">
@@ -37,7 +40,7 @@ const TimeLine = () => {
                     textFriend.map((friend,ind) => {
                         return <div key={ind} className="flex items-center p-4 px-6 bg-white border border-slate-200 rounded-xl shadow-sm max-w-full font-sans m-3">
      
-      <img src="/src/assets/text.png" alt="" />
+      <img src={text} alt="" />
       
     
       <div className="flex flex-col gap-1">
@@ -55,7 +58,7 @@ const TimeLine = () => {
                     videoFriend.map((friend,ind) => {
                         return <div key={ind} className="flex items-center p-4 px-6 bg-white border border-slate-200 rounded-xl shadow-sm max-w-full font-sans m-3">
       
-      <img src="/src/assets/video.png" alt="" />
+      <img src={video} alt="" />
       
       
       <div className="flex flex-col gap-1">
