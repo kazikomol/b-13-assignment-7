@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Arif Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "arif.hossain@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": "college", 
+    "bio": "Met during undergrad at BUET. We used to pull all-nighters before exams together.",
+    "goal": 14,
+    "next_due_date": "2025-06-01"
+  },
+  {
+    "id": 2,
+    "name": "Sara Malik",
+    "picture": "https://randomuser.me/api/portraits/women/24.jpg",
+    "email": "sara.malik@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": "work", 
+    "bio": "My first manager at the startup. Taught me how to think about product design.",
+    "goal": 10,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 3,
+    "name": "James Carter",
+    "picture": "https://randomuser.me/api/portraits/men/34.jpg",
+    "email": "james.carter@yahoo.com",
+    "days_since_contact": 28,
+    "status": "overdue",
+    "tags": "childhood", 
+    "bio": "Grew up on the same street. We lost touch after he moved to Canada but try to stay connected.",
+    "goal": 21,
+    "next_due_date": "2025-05-28"
+  },
+  {
+    "id": 4,
+    "name": "Nadia Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "nadia.r@protonmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": "university", 
+    "bio": "We were in the same thesis group. She's now doing a PhD in Berlin.",
+    "goal": 10,
+    "next_due_date": "2025-07-01"
+  },
+  {
+    "id": 5,
+    "name": "Liam Nguyen",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "email": "liam.nguyen@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": "tech community",
+    "bio": "Met at a hackathon in 2022. We collaborate on side projects occasionally.",
+    "goal": 14,
+    "next_due_date": "2025-07-11"
+  },
+  {
+    "id": 6,
+    "name": "Fatema Begum",
+    "picture": "https://randomuser.me/api/portraits/women/60.jpg",
+    "email": "fatema.b@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": "family", 
+    "bio": "My closest cousin. We grew up together and still meet during Eid.",
+    "goal": 14,
+    "next_due_date": "2025-06-26"
+  },
+  {
+    "id": 7,
+    "name": "Omar Shaikh",
+    "picture": "https://randomuser.me/api/portraits/men/73.jpg",
+    "email": "omar.shaikh@hotmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": "old job",
+    "bio": "We worked together at a fintech company for two years. Great person to brainstorm with.",
+    "goal": 30,
+    "next_due_date": "2025-05-15"
+  },
+  {
+    "id": 8,
+    "name": "Priya Sharma",
+    "picture": "https://randomuser.me/api/portraits/women/81.jpg",
+    "email": "priya.sharma@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": "book club",
+    "bio": "We met through a mutual friend at a book club. We share recommendations every month.",
+    "goal": 14,
+    "next_due_date": "2025-07-07"
+  }
+]
