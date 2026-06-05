@@ -1,16 +1,63 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br />
 
-Currently, two official plugins are available:
+# 🤝 KenKeeper
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### *Never lose touch with the people who matter most*
 
-## React Compiler
+KenKeeper is a personal relationship management app that helps you stay meaningfully connected with your friends — tracking interactions, milestones, and the health of your friendships over time.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+</div>
+
+
+
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **UI Library** | ⚛️ React |
+| **Routing** | 🔀 React Router DOM |
+| **Styling** | 🎨 Tailwind CSS |
+| **Language** | 🟨 JavaScript (ES6+) |
+| **Deployment** | ▲ Vercel |
+
+<br />
+
+---
+
+## 🚀 Getting Started
+
+
+
+
+
+<br />
+
+---
+
+## ✨ Key Features
+
+### 👥 1. Friends Dashboard
+Manage your entire social circle in one place. See all your friends at a glance with relationship tags, quick-access profile cards, and summary stats — total friends, who you're on track with, and who needs a check-in.
+
+### 📅 2. Interaction Timeline
+A beautiful chronological log of every interaction with a friend — calls, texts, meetups, and video chats. Never forget a conversation again; your shared history is always just one tap away.
+
+### 📊 3. Friendship Analytics
+Visual, data-driven insights into your relationships. Track interaction frequency by type, spot friends you've been drifting from, and get a clear picture of the overall health of your social life.
+
+<br />
+
+---
+
+<div align="center">
+
+Made with 💚 to keep friendships alive
+
+</div>
